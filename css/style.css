@@ -77,13 +77,24 @@
 
 .header__div2 {
   display: flex;
-  justify-content: flex-end;
   font-family: Roboto;
   font-size: 14px;
   font-weight: 500;
   line-height: 16.41px;
   letter-spacing: 0.02em;
   text-align: left;
+  padding-right: 40px;
+  gap: 40px;
+}
+
+.header__adresa {
+  width: 161px;
+  height: 16px;
+}
+
+.header__tel {
+  width: 132px;
+  height: 18px;
 }
 
 .header__info {
@@ -93,7 +104,6 @@
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
-  padding-right: 225px;
 }
 
 .header__info:hover {
@@ -410,18 +420,23 @@
   height: 44px;
 }
 
-/* Footer setion */
-
-.footer {
-  background-color: var(--black);
+.customers__list li:hover {
+  border-color: var(--blue);
+  border-radius: 4px;
 }
+
+.customers__cadru:hover {
+  color: var(--blue);
+}
+
+/* Footer setion */
 
 .footer {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   width: 1600px;
   height: 251px;
+  background-color: var(--black);
 }
 
 .footer__box {
@@ -430,6 +445,7 @@
   padding-left: 215px;
   padding-bottom: 60px;
   padding-right: 1154px;
+  display: flex;
 }
 
 .footer__logo {
@@ -439,7 +455,6 @@
   height: 31px;
   padding-bottom: 28px;
   padding-top: 60px;
-  padding-left: 215px;
   padding-right: 1240px;
 }
 
