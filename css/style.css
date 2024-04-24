@@ -331,24 +331,23 @@
   display: flex;
   justify-content: center;
   gap: 10px;
+  padding-left: 32px;
 }
 
 .our__social ul {
   margin-bottom: 30px;
-  padding-left: 32px;
-  padding-right: 32px;
 }
 
 .our__social li {
   padding: 12px;
   border-radius: 100px;
-  fill: #afb1b8;
   list-style: none;
 }
 
 .our__social li:hover {
+  fill: var(--white);
+
   background-color: var(--blue);
-  color: var(--white);
 }
 
 .our__social li:focus {
@@ -444,20 +443,22 @@
 /* Footer setion */
 
 .footer {
-  display: flex;
-  flex-direction: column;
   width: 1600px;
-  height: 251px;
-  background-color: var(--black);
 }
 
-.footer__box {
-  width: 231px;
-  height: 72px;
-  padding-left: 215px;
-  padding-bottom: 60px;
-  padding-right: 1154px;
+.footer__section {
+  padding: 60px 0;
   display: flex;
+  background-color: var(--black);
+  color: var(--white-color);
+  padding-left: 215px;
+  padding-right: 1154px;
+}
+
+.footer__section .container {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
 }
 
 .footer__logo {
@@ -466,8 +467,6 @@
   width: 145px;
   height: 31px;
   padding-bottom: 28px;
-  padding-top: 60px;
-  padding-right: 1240px;
 }
 
 .footer__adress {
@@ -511,25 +510,26 @@
   width: 206px;
   height: 80px;
   display: flex;
+  flex-direction: column;
   gap: 10px;
 }
 
-.footer__social ul {
+.footer__social-ul {
   display: flex;
-  justify-content: center;
   list-style: none;
+  border-radius: 100px;
+  padding-top: 8px;
+  color: white;
 }
 
-.footer__social ul {
-  margin-bottom: 30px;
-  padding-left: 32px;
-  padding-right: 32px;
+.footer__social-ul {
+  gap: 10px;
+  border-radius: 100px;
 }
 
 .footer__social li {
   padding: 12px;
   border-radius: 100px;
-  fill: #afb1b8;
   list-style: none;
 }
 
@@ -543,9 +543,20 @@
   fill: var(--white);
 }
 
+.footer__title {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--white);
+}
+
 .footer__icon {
   width: 20px;
   height: 20px;
+  fill: white;
 }
 
 /* Portofolio */
