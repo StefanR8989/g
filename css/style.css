@@ -147,8 +147,7 @@
   display: flex;
   padding-top: 200px;
   padding-bottom: 30px;
-  padding-left: 452px;
-  padding-right: 452px;
+  padding-left: 72px;
 }
 
 .main__button {
@@ -292,7 +291,7 @@
 .ourteam__job {
   font-family: var(--primaryfont);
   color: #757575;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 18.75px;
   letter-spacing: 0.03em;
