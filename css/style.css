@@ -83,7 +83,7 @@
   line-height: 16.41px;
   letter-spacing: 0.02em;
   text-align: left;
-  padding-right: 40px;
+  padding-right: 225px;
   gap: 40px;
 }
 
@@ -108,6 +108,18 @@
 
 .header__info:hover {
   color: var(--blue);
+}
+
+.header__icon {
+  width: 16px;
+  height: 12px;
+  padding-right: 10px;
+}
+
+.header__icon1 {
+  width: 10px;
+  height: 18px;
+  padding-right: 10px;
 }
 
 /* Index */
