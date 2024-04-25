@@ -107,8 +107,15 @@
 }
 
 .header__info:hover,
-.header__icon:hover {
+.header__icon:hover,
+.header__icon1:hover {
   color: var(--blue);
+  fill: var(--blue);
+}
+
+.header__div2:hover {
+  color: var(--blue);
+  fill: var(--blue);
 }
 
 .header__icon {
@@ -129,7 +136,8 @@
 
 .main__section {
   display: flex;
-  justify-content: center;
+  width: 1600px;
+  height: 600px;
 }
 
 .main {
@@ -518,11 +526,6 @@
   border-radius: 100px;
   padding-top: 8px;
   color: white;
-}
-
-.footer__social-ul {
-  gap: 10px;
-  border-radius: 100px;
 }
 
 .footer__social li {
