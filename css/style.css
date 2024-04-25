@@ -122,6 +122,10 @@
   padding-right: 10px;
 }
 
+.header__icon1:hover {
+  color: var(--blue);
+}
+
 /* Index */
 
 .main {
